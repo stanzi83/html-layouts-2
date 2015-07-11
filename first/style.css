@@ -1,0 +1,82 @@
+.background {
+    background-color: white;
+}
+.master {
+    display: inline-block;
+    float: left;
+}
+.block1 {
+    background-color: black;
+    height: 25%;
+    width: calc(33% - 10px);
+    margin-right:10px;
+}
+.block2 {
+    background-color: red;
+    height: 25%;
+    width: calc(33% - 10px);
+    margin-right:10px;
+}
+.block3 {
+    background-color: blue;
+    height: 25%;
+    width: 33%;
+}
+.text {
+    font-family: Arial;
+    height: 30%;
+    color: black;
+    margin: 50px 10px;
+    clear: both;
+    padding: 10px;
+}
+
+.otherblocks {
+    padding: 10px;
+    }
+
+.blockun {
+    background-color: red;
+    height: 35%;
+    width: 33%;
+    display: inline-block;
+    float: left;
+}
+
+.blockdeux {
+    background-color: blue;
+    height: 35%;
+    width: 66%;
+    display: inline-block;
+    float: left;
+}
+
+.lastblocks {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.unblock {
+    background-color: blue;
+    margin-top: 10px;
+    height: 25%;
+    width: calc(70% - 10px);
+    display: inline-block;
+    float: left;
+}
+
+.deuxblock {
+    background-color: red;
+    margin-top: 10px;
+    height: 25%;
+    width: 30%;
+    display: inline-block;
+    float: left;
+}
+
+.centerblock {
+    background-color: grey;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
